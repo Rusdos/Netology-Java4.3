@@ -9,7 +9,7 @@ public class Main {
         System.out.printf("Ежемесячный платёж %,.0f%n",payment1);
 
         CreditPaymentService service2 = new CreditPaymentService();
-        double payment2 = service2.calculate(20,1000000,3);
+        double payment2 = service2.calculate(9.99,1000000,3);
         System.out.printf("Ежемесячный платёж %,.0f%n",payment2);
 
     }
